@@ -20,6 +20,8 @@ function makeGalleryMarkup(galleryItems){
              alt="${description}"
              data-source="${original}">
             </a>
+
+          
         </div>
         `
 
