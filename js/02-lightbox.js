@@ -20,7 +20,7 @@ function makeGalleryMarkup(galleryItems) {
     .join(' ');
 }
 
-var modal = new SimpleLightbox('.gallery a', {
+const modal = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
